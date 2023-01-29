@@ -1,0 +1,42 @@
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'estilos/style.css' %}">
+  <link rel="stylesheet" href="{% static 'estilos/butons.css' %}">
+  
+  <title> Document </title>
+
+</head>
+<body>
+ 
+  <header>
+    <section class="wrapper">
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Tutoriales</a></li>
+          <li><a href="#">Cursos</a></li>
+          <li><a href="#">Preguntame algo</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+      </section>
+  </header>
+  
+  <section class="contenido wrapper">
+     <button>
+       entrar
+     </button>
+    <button>
+       salir
+    </button>
+  </section>
+  <div style="border: 1px solid blue; border-radius: 5px; background-color: bisque">
+      <H1>HOME.HTML</H1>
+      <img src="{% static 'imagenes/cu.jpg' %} alt=">
+  </div>
+</body>
+</html>
