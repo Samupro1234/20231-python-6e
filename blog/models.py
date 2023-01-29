@@ -32,6 +32,7 @@ class visitante(models.Model):
 
 
 class guia(models.Model):
+    
     nomb_guia = models.CharField(max_length=175)
     apell_guia = models.CharField(max_length=175)
     num_documento = models.CharField(max_length=11)
