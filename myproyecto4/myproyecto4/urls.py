@@ -20,7 +20,7 @@ from myproyecto4.views import  home, contacto, portafolio, productos
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', home),
+    path('home/', home),
     path('contacto/', contacto),
     path('portafolio/', portafolio),
     path('productos/', productos),
