@@ -17,7 +17,7 @@ class sitio(models.Model):
     hora_salida=models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.nombre_sitio + " - " + self.aforo;
+        return self.nombre_sitio;
 
 
 class visitante(models.Model):
