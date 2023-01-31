@@ -38,4 +38,4 @@ class guia(models.Model):
     num_documento = models.CharField(max_length=11)
     
     def __str__(self):
-        return f'%s (%s)' % (self.nomb_guia, self.apell_guia, self.num_documento)
+        return self.nomb_guia
